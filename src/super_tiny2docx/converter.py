@@ -9,7 +9,7 @@ from docx.oxml.ns import qn
 from docx.shared import Pt, Cm
 from docx.table import _Cell
 
-from super_tiny2docx.doc_styles import ComputedStyle
+from src.super_tiny2docx.doc_styles import ComputedStyle
 
 
 class SuperTiny2Docx:
@@ -573,5 +573,5 @@ if __name__ == "__main__":
     super_converter = SuperTiny2Docx(html_content)
     docx_file = super_converter.convert()
 
-    with open("../super_document.docx", "wb") as f:
+    with open("../../super_document.docx", "wb") as f:
         f.write(docx_file.read())

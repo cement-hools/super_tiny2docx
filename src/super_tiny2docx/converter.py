@@ -9,7 +9,7 @@ from docx.oxml.ns import qn
 from docx.shared import Pt, Cm
 from docx.table import _Cell
 
-from src.super_tiny2docx.doc_styles import ComputedStyle
+from super_tiny2docx.doc_styles import ComputedStyle
 
 
 class SuperTiny2Docx:

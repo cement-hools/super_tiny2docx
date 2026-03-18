@@ -4,7 +4,7 @@ build-backend = "uv_build"
 
 [project]
 name = "super_tiny2docx"
-version = "0.1.2"
+version = "0.1.3"
 description = "Convert HTML from TinyMCE (or other WYSIWYG editors) into .docx documents easily. Designed for developers looking to integrate rich text export functionality into their Python applications. Contributions welcome!"
 readme = "README.md"
 license = { text = "MIT" }
